@@ -33,10 +33,11 @@ Music Assistant - @Assista_r0bot
                     
                     InlineKeyboardButton(
                         "✨GitHub✨", url="http://www.github.com/War-Legend/camilamusic"
+                    ) 
+                ]
             ]
         )
     )
-
 @Client.on_message(
     filters.command("start")
     & filters.group
