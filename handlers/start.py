@@ -13,9 +13,9 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
 \nI can play music in your group's voice chat
-Maintained by @itsMeLegend ❤
-Music Assistant - @camilaowner
-\nTo add in your group contact us at @camila_Support
+Maintained by @Cat047noir and @Asiansworld team ❤
+Music Assistant - @Assista_r0bot
+\nPlz don't add this bot  in your group.. It's only for @Asiansworld
 \nHit /help list of available commands.
  </b>""",
       
@@ -24,25 +24,16 @@ Music Assistant - @camilaowner
             [
                 [
                     InlineKeyboardButton(
-                      "✨CamilaAssistant", url="https://t.me/camilaowner",
+                      "✨CamilaAssistant", url="https://t.me/assista_r0bot",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Help Group", url="https://t.me/camila_support"
+                        "💬 Group", url="https://t.me/Asiansworld"
                     ),
-                    InlineKeyboardButton(
-                        "stickers💖", url="https://t.me/stickersbag"
-                    ),
+                    
                     InlineKeyboardButton(
                         "✨GitHub✨", url="http://www.github.com/War-Legend/camilamusic"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/camillaMusicbot?startgroup=true"
-                    ) 
-                ]
             ]
         )
     )
@@ -59,7 +50,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Support Group  ", url="https://t.me/camila_suppport"
+                        "Our chat Group  ", url="https://t.me/Adiansworld"
                     )
                 ],    
                 [    
@@ -105,7 +96,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Need Help❓", url="https://t.me/camila_Support"
+                        "Need Help❓", url="https://t.me/Cat047noir"
                     )
                 ]
             ]
