@@ -436,7 +436,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @camilaowner to your Group and try again</b>",
+                                  "\n\nOr manually add @assista_r0bot to your Group and try again</b>",
                               )
                               pass
     try:
@@ -533,7 +533,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="✯Camila ᴍᴜꜱɪᴄ✯▶️ **Playing** here the song requested by {} 😜".format(
+        caption="✯MUSTIC ᴍᴜꜱɪᴄ✯▶️ **Playing** here the song requested by {} 😜".format(
         message.from_user.mention()
         ),
     )
