@@ -782,8 +782,7 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"
-            <b>Mystic ᴍᴜꜱɪᴄ✯=#️⃣ Queued at position {position} , Made by @asianworld",
+            caption=f"Camila ᴍᴜꜱɪᴄ✯=#️⃣ Queued at position {position} , Made by @asianworld",
         
         )           
            
