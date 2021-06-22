@@ -24,7 +24,7 @@ Music Assistant - @Assista_r0bot
             [
                 [
                     InlineKeyboardButton(
-                      "✨CamilaAssistant", url="https://t.me/assista_r0bot",
+                      "✨MysticAssistant", url="https://t.me/assista_r0bot",
                     )
                 ],
                 [
