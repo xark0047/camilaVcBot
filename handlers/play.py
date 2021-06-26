@@ -714,7 +714,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @camilaowner to your Group and try again</b>",
+                                  "\n\nOr go to our Group @asiansworld </b>",
                               )
                               pass
     try:
@@ -758,7 +758,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="Updates Channel",
-                   url='https://t.me/Yuki_Support')
+                   url='https://t.me/asiansworld')
              ],
              [       
                InlineKeyboardButton(
@@ -782,7 +782,7 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"Camila ᴍᴜꜱɪᴄ✯=#️⃣ Queued at position {position} , Made by @asianworld",
+            caption=f"Mystic ᴍᴜꜱɪᴄ✯=#️⃣ Queued at position {position} , Made by @asianworld",
         
         )           
            
