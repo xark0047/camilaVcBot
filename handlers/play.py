@@ -533,7 +533,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="✯MUSTIC ᴍᴜꜱɪᴄ✯▶️ **Playing** here the song requested by {} 😜".format(
+        caption="✯MYSTIC ᴍᴜꜱɪᴄ✯▶️ **Playing** here the song requested by {} 😜".format(
         message.from_user.mention()
         ),
     )
@@ -554,7 +554,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "camilaowner"
+        user.first_name =  "assista_r0bot"
     usar = user
     wew = usar.id
     try:
