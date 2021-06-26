@@ -406,7 +406,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "@camilaowner"
+        user.first_name =  "@assista_r0bot"
     usar = user
     wew = usar.id
     try:
@@ -427,7 +427,7 @@ async def play(_, message: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message.chat.id,"I joined this group for playing music in VC")
                               await lel.edit(
-                                  "<b>@camilaowner userbot joined your chat</b>",
+                                  "<b>@assista_r0bot userbot joined your chat</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -705,7 +705,7 @@ async def jiosaavn(client: Client, message_: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message_.chat.id,"I joined this group for playing music in VC")
                               await lel.edit(
-                                  "<b>camilaowner helper userbot joined your chat | Made by @Itsmelegend</b>",
+                                  "<b>assista_r0bot helper userbot joined your chat | Made by @Itsmelegend</b>",
                               )
 
                           except UserAlreadyParticipant:
